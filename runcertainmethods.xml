@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite 3">
+    <test name="Regression1" preserve-order="false">
+        <classes>
+            <class name="com.techproed.tests.WebTables">
+                <methods>
+                    <include name="printRows()" />
+                    <include name="printCells()" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Regression2" preserve-order="false">
+        <classes>
+            <class name="com.techproed.tests.DropDown">
+                <methods>
+                    <include name="dropdownTest1()" />
+                    <include name="dropdownTest2()" />
+                </methods>
+            </class>
+            <class name="com.techproed.tests.AllertTest">
+                <methods>
+                    <exclude name="acceptAllert()" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

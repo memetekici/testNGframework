@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="package practice" parallel="classes" thread-count="2" verbose="2">
+    <test name="package test">
+        <packages>
+            <package name="com.techproed.Batch3SeleniumPractice.Day5"></package>
+        </packages>
+    </test>
+</suite>

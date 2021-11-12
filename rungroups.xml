@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="group practice" verbose="1">
+    <test name="group test">
+        <groups>
+            <run>
+                <include name="smk">
+                    
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.techproed.Batch3SeleniumPractice.Day4.TestCase3"/>
+            <class name="com.techproed.Batch3SeleniumPractice.Day5.TestCase3"/>
+        </classes>
+        
+    </test>
+</suite>

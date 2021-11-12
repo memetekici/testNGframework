@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="koala smoke suite" verbose="2">
+    <test name="tests">
+        <packages>
+            <package name="com.techproed.smoketest"></package>
+            <package name="com.techproed.excelautomation"></package>
+
+        </packages>
+    </test>
+</suite>

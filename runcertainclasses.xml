@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke test automation" verbose="2">
+    <test name="include exlude class test">
+        <classes>
+            <class name="com.techproed.smoketest.NegativeTest"/>
+            <class name="com.techproed.tests.FaceLogin"/>
+        </classes>
+    </test>
+</suite>

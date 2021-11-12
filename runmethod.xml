@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="method practice"  verbose="2">
+    <test name="method test">
+        <classes>
+            <class name="com.techproed.Batch3SeleniumPractice.day6.TestCase1">
+                <methods>
+                    <include name="test1"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

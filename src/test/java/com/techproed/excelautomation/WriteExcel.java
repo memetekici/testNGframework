@@ -35,6 +35,7 @@ public class WriteExcel {
         sheet.getRow(2).createCell(3).setCellValue("250000");
         //Create a cell on the 4th row 4th cell(index3), and write 54000
         sheet.getRow(3).createCell(3).setCellValue("54000");
+       sheet.getRow(4).createCell(3).setCellValue("64000");//Kendim ekledim
         //Write and save the workbook
         FileOutputStream fileOutputStream = new FileOutputStream(path);
         workbook.write(fileOutputStream);

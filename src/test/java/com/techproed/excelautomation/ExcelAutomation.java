@@ -15,7 +15,7 @@ public class ExcelAutomation {
     public void excelAutomation(){
         excelUtil=new ExcelUtil("./src/test/java/resources/exceldata.xlsx","datatablessheet");
         testData=excelUtil.getDataList();
-//        System.out.println(testData);
+       System.out.println(testData);
         for (Map<String,String> appData:testData){
 //            System.out.println(appData);
 //            System.out.println(appData.get("position"));//We will use this logic to get the value of each column
